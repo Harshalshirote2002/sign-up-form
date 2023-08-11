@@ -9,17 +9,19 @@
 </head>
 <body>
     <div class="sidebar">
-        <p>ODIN</p>
-        <p>reference</p>
+        <div class="logo">
+            <img src="./images/odin_lined.png">
+            <p>ODIN</p>
+        </div>
     </div>
     <main>
-        <p>This is not a real online service! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, fuga? Aliquid molestias ipsa, iusto, provident laborum eligendi modi obcaecati porro nihil mollitia dignissimos dolorem architecto eveniet delectus cum atque sit?</p>
-        <p>Sign up now to get started.</p>
-        <p>You <em>know</em> you want to.</p>
-
-        <form action="#" method="push">
-            <fieldset>
-                <legend>Let's do this!</legend>
+        <div class="row1">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<span>Sign up <em>now</em> to get started.</span></p>
+            <p>You <em>know</em> you want to.</p>
+        </div>
+        <div class="row2">
+            <div class="fieldset">
+                <!-- <legend>Let's do this!</legend> -->
                 <div>
                     <label for="first_name">FIRST NAME</label>
                     <input type="text" id="first_name" name="first_name" required>
@@ -49,9 +51,10 @@
                     <label for="confirm_password">CONFIRM PASSWORD</label>
                     <input type="password" id="confirm_password" name="confirm_password" required>
                 </div>
-            </fieldset>
+            </div>
+
             <button type="submit">Create Account</button>
-        </form>
+    </div>
 
         <p>Already have an account? <span>Log in</span></p>
 
