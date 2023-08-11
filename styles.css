@@ -3,6 +3,21 @@
     src: url(./fonts/Norse-Bold.otf);
 }
 
-h1{
-    font-family: my-cool-font, sans-serif;
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
 }
+
+.sidebar{
+
+}
+
+.sidebar>p:first-child{
+    font-family: my-cool-font;
+}
+
+/* fieldset{
+    display: flex;
+} */
