@@ -45,8 +45,9 @@ body{
 main{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     height: 100vh;
+    gap: 3vh;
 }
 
 .row1{
@@ -57,6 +58,7 @@ main{
     flex-direction: column;
     gap: 5vh;
     margin-left: 2vw;
+    margin-bottom: 5vh;
 }
 
 .row1 span{
@@ -72,7 +74,7 @@ main{
     box-shadow: 0 5px 5px rgb(110, 110, 110);
 }
 
-.fieldset{
+form{
     display: flex;
     flex-flow: row wrap;
     column-gap: 4vw;
@@ -80,7 +82,7 @@ main{
     row-gap: 2vh;
 }
 
-.fieldset>div{
+form>div{
     display: flex;
     flex-flow: column;
     font-size: 0.7em;
@@ -95,6 +97,7 @@ button{
     border: 0;
     font-size: 1em;
     border-radius: 7px;
+    margin-left: 2vw;
 }
 
 main>p:last-child>span{
@@ -107,20 +110,20 @@ main>p:last-child{
     margin-left: 2vw;
 }
 
-input{
-    border-color: #E5E7EB;
-    border-radius: 4px;
-}
-
 input:focus:valid{
     border-color: #0792dc;
     box-shadow: 1px 1px 2px black;
     outline: none;
 }
 
-input:focus:invalid{
+input:invalid{
     border-color: #ff0101;
     outline: none;
+}
+
+input:placeholder-shown{
+    border-color: #E5E7EB;
+    border-radius: 4px;
 }
 
 
