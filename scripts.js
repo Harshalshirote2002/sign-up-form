@@ -7,9 +7,6 @@ function submitEvent(e){
         e.preventDefault();
         alert("Passwords do not match. Please try again.");
     }
-    else{
-        alert("Sign up successful!");
-    }
 }
 
 form.addEventListener('submit', submitEvent)
