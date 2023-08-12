@@ -19,7 +19,7 @@ body{
 
 .sidebar{
     min-width: 37vw;
-    height: 100vh;
+    min-height: 100vh;
     background-image: url(./images/halie-west-unsplash.jpg);
     background-size: cover;    
     background-repeat: no-repeat;
@@ -126,5 +126,25 @@ input:placeholder-shown{
     border-radius: 4px;
 }
 
+@media (max-width: 912px) {
+    .sidebar{
+        display: none;
+    }
+}
 
+@media (max-width: 600px) {
+    .sidebar{
+        display: none;
+    }
+    .row1{
+        align-items: center;
+    }
+    .row2{
+        align-items: center;
+    }
+    main{
+        align-items: center;
+    }
+}
 
+  
